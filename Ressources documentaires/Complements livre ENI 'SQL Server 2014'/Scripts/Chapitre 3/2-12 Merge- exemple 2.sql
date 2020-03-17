@@ -1,0 +1,3 @@
+
+ALTER TABLE CLIENTS 
+ADD ca NUMERIC(10,2) null;

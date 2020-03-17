@@ -1,0 +1,4 @@
+
+CREATE INDEX IDESIGNATION_ARTICLES
+  ON ARTICLES(designation_art)
+  WHERE code_cat IN (1,2);

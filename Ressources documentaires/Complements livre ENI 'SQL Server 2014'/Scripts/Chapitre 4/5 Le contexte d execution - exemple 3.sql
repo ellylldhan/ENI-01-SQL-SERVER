@@ -1,0 +1,8 @@
+
+-- en tant que paul
+USE GESCOM
+GO
+EXECUTE AS USER='marie'
+SELECT ORIGINAL_LOGIN(),SUSER_NAME()
+EXEC dbo.voir
+REVERT

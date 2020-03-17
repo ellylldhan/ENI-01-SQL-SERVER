@@ -1,0 +1,7 @@
+
+UPDATE STOCKS
+  SET qte_stk=qte_stk-(SELECT SUM(QTE_CDE)
+      FROM LIGNES_CDE
+	  WHERE LIGNES_CDE.reference_art=STOCKS.reference_art)
+  WHERE STOCKS.REFERENCE_ART='CLE25'
+    AND STOCKS.DEPOT='P2';

@@ -1,0 +1,5 @@
+
+SELECT REFERENCE_ART,
+	'Ancien Prix'=PRIXHT_ART,
+	'Nouveau Prix'=PRIXHT_ART*1.1
+	FROM ARTICLES;

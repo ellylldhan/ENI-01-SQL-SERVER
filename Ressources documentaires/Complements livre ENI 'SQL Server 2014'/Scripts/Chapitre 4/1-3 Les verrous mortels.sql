@@ -1,0 +1,27 @@
+USE gescom
+Go
+SET DEADLOCK_PRIORITY HIGH
+BEGIN TRAN
+UPDATE CLIENTS 
+  SET nom=UPPER(nom)
+  WHERE numero=1;
+UPDATE CLIENTS 
+  SET nom=UPPER(nom)
+  WHERE numero=2;
+rollback tran
+
+
+USE GESCOM;
+go
+BEGIN TRAN
+UPDATE CLIENTS
+  SET prenom=LOWER(prenom)
+  WHERE numero=2;
+UPDATE CLIENTS
+  SET prenom=LOWER(prenom)
+  WHERE numero=1;
+ROLLBACK TRAN
+go
+SELECT ville, COUNT(*) 'Nbre Clients'
+  FROM CLIENTS WITH (TABLOCK HOLDLOCK)
+  GROUP BY ville;

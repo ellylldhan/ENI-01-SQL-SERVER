@@ -1,0 +1,2 @@
+
+CREATE PRIMARY XML INDEX pidx_page ON CATALOGUES(page);

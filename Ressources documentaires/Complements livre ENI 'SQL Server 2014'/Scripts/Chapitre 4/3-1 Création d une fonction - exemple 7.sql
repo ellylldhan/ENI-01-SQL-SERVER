@@ -1,0 +1,12 @@
+
+CREATE FUNCTION ftest()
+  RETURNS int
+  WITH SCHEMABINDING
+AS
+BEGIN
+	DECLARE @retour int;
+	SELECT @retour=COUNT(*) FROM dbo.HISTO_FAC;
+	RETURN @retour;
+END;
+go
+DROP TABLE HISTO_FAC;

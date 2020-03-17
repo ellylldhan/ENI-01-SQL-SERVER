@@ -1,0 +1,5 @@
+
+CREATE SEQUENCE seq_clients
+  AS int
+  START WITH 100
+  INCREMENT BY 1;

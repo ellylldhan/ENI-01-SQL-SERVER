@@ -1,0 +1,173 @@
+***************
+* Requete A : *
+*************** 
+
+noCli                                   nom                            prenom                         adresse                                                                                                                  cpo   ville
+--------------------------------------- ------------------------------ ------------------------------ ------------------------------------------------------------------------------------------------------------------------ ----- --------------------------------------------------------------------------------
+3                                       Dupond                         Camille                        Rue Crébillon                                                                                                            44000 Nantes
+4                                       Desmoulin                      Daniel                         Rue descendante                                                                                                          21000 Dijon
+9                                       Dupond                         Jean                           Rue des mimosas                                                                                                          75018 Paris
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete B : *
+***************
+nom                            prenom
+------------------------------ ------------------------------
+Albert                         Anatole
+Bernard                        Barnabé
+Dupond                         Camille
+Desmoulin                      Daniel
+Ernest                         Etienne
+Ferdinand                      François
+Dupond                         Jean
+Boutaud                        Sabine
+
+(8 ligne(s) affectée(s))
+
+
+
+***************
+* Requete C : *
+***************
+noFic                                   etat nom                            prenom
+--------------------------------------- ---- ------------------------------ ------------------------------
+1004                                    EC   Ferdinand                      François
+1005                                    EC   Dupond                         Camille
+
+(2 ligne(s) affectée(s))
+
+
+
+***************
+* Requete D : *
+***************
+numéro de fiche                         nom                            prénom                         référence désignation                                                                      départ                         retour                         prix par jour                           montant
+--------------------------------------- ------------------------------ ------------------------------ --------- -------------------------------------------------------------------------------- ------------------------------ ------------------------------ --------------------------------------- ---------------------------------------
+1002                                    Desmoulin                      Daniel                         A03       Salomon 24X+Z12                                                                  05/11/2016                     09/11/2016                     10.00                                   50.00
+1002                                    Desmoulin                      Daniel                         A04       Salomon 24X+Z12                                                                  06/11/2016                     11/11/2016                     10.00                                   60.00
+1002                                    Desmoulin                      Daniel                         S03       Décathlon Apparition                                                             10/11/2016                     -                              10.00                                   90.00
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete E : *
+***************
+Gamme                          tarif journalier moyen
+------------------------------ ---------------------------------------
+Entrée de gamme                10.833333
+Haut de gamme                  27.500000
+Matériel Professionnel         80.000000
+Moyenne gamme                  15.833333
+
+(4 ligne(s) affectée(s))
+
+
+
+***************
+* Requete F : *
+***************
+refart designation                                                                      nombre de locations
+------ -------------------------------------------------------------------------------- -------------------
+F05    Fischer Cruiser                                                                  4
+F50    Fischer SOSSkating VASA                                                          3
+
+(2 ligne(s) affectée(s))
+
+
+
+***************
+* Requete G : *
+***************
+(1 ligne(s) affectée(s))
+numéro de fiche                         nom                            prénom                         référence désignation                                                                      départ                         retour                         prix par jour                           montant                                 total
+--------------------------------------- ------------------------------ ------------------------------ --------- -------------------------------------------------------------------------------- ------------------------------ ------------------------------ --------------------------------------- --------------------------------------- ---------------------------------------
+1002                                    Desmoulin                      Daniel                         A03       Salomon 24X+Z12                                                                  05/11/2016                     09/11/2016                     10.00                                   50.00                                   200.00
+1002                                    Desmoulin                      Daniel                         A04       Salomon 24X+Z12                                                                  06/11/2016                     11/11/2016                     10.00                                   60.00                                   200.00
+1002                                    Desmoulin                      Daniel                         S03       Décathlon Apparition                                                             10/11/2016                     -                              10.00                                   90.00                                   200.00
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete H : *
+***************
+Catégorie                      Gamme                          Nom du tarif                   Prix à la journée
+------------------------------ ------------------------------ ------------------------------ ---------------------------------------
+Ski de fond alternatif         Entrée de gamme                Base                           10.00
+Ski de fond patineur           Entrée de gamme                Chocolat                       15.00
+Monoski                        Entrée de gamme                Base                           10.00
+Patinette                      Entrée de gamme                Base                           10.00
+Ski alpin                      Entrée de gamme                Base                           10.00
+Surf                           Entrée de gamme                Base                           10.00
+Ski de fond alternatif         Haut de gamme                  Argent                         30.00
+Ski de fond patineur           Haut de gamme                  Argent                         30.00
+Ski alpin                      Haut de gamme                  Argent                         30.00
+Surf                           Haut de gamme                  Bronze                         20.00
+Ski de fond alternatif         Matériel Professionnel         Platine                        90.00
+Ski de fond patineur           Matériel Professionnel         Platine                        90.00
+Ski alpin                      Matériel Professionnel         Platine                        90.00
+Surf                           Matériel Professionnel         Or                             50.00
+Ski de fond alternatif         Moyenne gamme                  Chocolat                       15.00
+Ski de fond patineur           Moyenne gamme                  Bronze                         20.00
+Monoski                        Moyenne gamme                  Chocolat                       15.00
+Patinette                      Moyenne gamme                  Chocolat                       15.00
+Ski alpin                      Moyenne gamme                  Chocolat                       15.00
+Surf                           Moyenne gamme                  Chocolat                       15.00
+
+(20 ligne(s) affectée(s))
+
+
+
+***************
+* Requete I : *
+***************
+référence désignation                                                                      nombre de locations
+--------- -------------------------------------------------------------------------------- -------------------
+S01       Décathlon Apparition                                                             6
+S02       Décathlon Apparition                                                             6
+S03       Décathlon Apparition                                                             6
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete J : *
+***************
+nombre d'articles loués en moyenne par fiche
+--------------------------------------------
+2.375000
+
+(1 ligne(s) affectée(s))
+
+
+
+***************
+* Requete K : *
+***************
+catégorie                      nombre de location
+------------------------------ ------------------
+Patinette                      1
+Ski alpin                      2
+Surf                           6
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete L : *
+***************
+montant moyen d'une fiche de location
+---------------------------------------
+146.25
+
+(1 ligne(s) affectée(s))
+

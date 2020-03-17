@@ -1,0 +1,113 @@
+*************
+* Requete 1 *
+************* 
+
+refart designation                                                                      nbloc
+------ -------------------------------------------------------------------------------- -----------
+A04    Salomon 24X+Z12                                                                  6
+P01    Décathlon Allegre junior 150                                                     6
+S01    Décathlon Apparition                                                             6
+F05    Fischer Cruiser                                                                  5
+F10    Fischer Sporty Crown                                                             4
+F02    Fischer Cruiser                                                                  4
+F22    Fischer RCS Classic GOLD                                                         4
+F23    Fischer RCS Classic GOLD                                                         4
+F50    Fischer SOSSkating VASA                                                          4
+A10    Salomon Pro Link Equipe 4S                                                       4
+A11    Salomon Pro Link Equipe 4S                                                       4
+P11    Fischer mini ski patinette                                                       4
+S02    Décathlon Apparition                                                             3
+F01    Fischer Cruiser                                                                  3
+A02    Salomon 24X+Z12                                                                  3
+F60    Fischer RCS CARBOLITE Skating                                                    3
+F03    Fischer Cruiser                                                                  2
+A03    Salomon 24X+Z12                                                                  2
+A05    Salomon 24X+Z12                                                                  2
+A01    Salomon 24X+Z12                                                                  2
+S03    Décathlon Apparition                                                             2
+F21    Fischer RCS Classic GOLD                                                         2
+P10    Fischer mini ski patinette                                                       2
+F63    Fischer RCS CARBOLITE Skating                                                    2
+F64    Fischer RCS CARBOLITE Skating                                                    2
+F04    Fischer Cruiser                                                                  1
+F61    Fischer RCS CARBOLITE Skating                                                    1
+F62    Fischer RCS CARBOLITE Skating                                                    0
+F20    Fischer RCS Classic GOLD                                                         0
+A21    Salomon 3V RACE JR+L10                                                           0
+
+(30 ligne(s) affectée(s))
+
+
+*************
+* Requete 2 *
+*************
+nom                            prenom                         ville
+------------------------------ ------------------------------ --------------------------------------------------------------------------------
+Ernest                         Etienne                        Saint Étienne
+de France                      Cécile                         Charlesville-Mézières
+
+(2 ligne(s) affectée(s))
+
+
+*************
+* Requete 3 *
+*************
+noFic                                   nom                            refart designation
+--------------------------------------- ------------------------------ ------ --------------------------------------------------------------------------------
+1002                                    Desmoulin                      S03    Décathlon Apparition
+1004                                    Ferdinand                      P01    Décathlon Allegre junior 150
+1005                                    Dupond                         F10    Fischer Sporty Crown
+
+(3 ligne(s) affectée(s))
+
+
+*************
+* Requete 4 *
+*************
+ca                                      nbjours     prix moyen location
+--------------------------------------- ----------- ---------------------------------------
+4730.00                                 113         41.858407
+
+(1 ligne(s) affectée(s))
+
+
+*************
+* Requete 5 *
+*************
+refart 
+------ -----------
+F04    1
+F61    1
+
+(2 ligne(s) affectée(s))
+
+
+*************
+* Requete 6 *
+*************
+nocli                                   nom                            prenom                         adresse                                                                                                                  cpo   ville
+--------------------------------------- ------------------------------ ------------------------------ ------------------------------------------------------------------------------------------------------------------------ ----- --------------------------------------------------------------------------------
+22                                      Elmaleh                        Gad                            45 rue du sentier                                                                                                        75001 Paris
+25                                      Merad                          Kad                            Rue du petit nicolas                                                                                                     91130 Ris-Orangis
+27                                      Reno                           Jean                           78 Boulevard de Léon                                                                                                     51200 Montmirail
+33                                      Youn                           Michaël                        rue de la beuze                                                                                                          92150 Suresnes
+44                                      Huppert                        Isabelle                       8 rue des femmes                                                                                                         75002 Paris
+
+(5 ligne(s) affectée(s))
+
+
+*************
+* Requete 7 *
+*************
+Categories                     Mois1                                   Mois2                                   Mois3                                   Mois4                                   Mois5                                   Mois6                                   Total
+------------------------------ --------------------------------------- --------------------------------------- --------------------------------------- --------------------------------------- --------------------------------------- --------------------------------------- ---------------------------------------
+Patinette                      180.00                                  165.00                                  100.00                                  30.00                                   NULL                                    NULL                                    475.00
+Ski alpin                      900.00                                  NULL                                    30.00                                   20.00                                   NULL                                    1000.00                                 1950.00
+Ski de fond alternatif         150.00                                  NULL                                    610.00                                  30.00                                   NULL                                    90.00                                   880.00
+Ski de fond patineur           240.00                                  1080.00                                 NULL                                    NULL                                    NULL                                    NULL                                    1320.00
+Surf                           60.00                                   NULL                                    40.00                                   NULL                                    NULL                                    NULL                                    100.00
+NULL                           1530.00                                 1245.00                                 780.00                                  80.00                                   NULL                                    1090.00                                 4725.00
+Avertissement : la valeur NULL est éliminée par un agrégat ou par une autre opération SET.
+
+(6 ligne(s) affectée(s))
+

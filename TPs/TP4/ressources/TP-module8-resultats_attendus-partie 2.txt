@@ -1,0 +1,257 @@
+***************
+* Requete 1 : *
+*************** 
+nom                            prénom                         adresse                                                                                                                  code postal ville
+------------------------------ ------------------------------ ------------------------------------------------------------------------------------------------------------------------ ----------- --------------------------------------------------------------------------------
+Albert                         Anatole                        Rue des accacias                                                                                                         61000       Amiens
+Bernard                        Barnabé                        Rue du bar                                                                                                               01000       Bourg en Bresse
+Desmoulin                      Daniel                         Rue descendante                                                                                                          21000       Dijon
+Dupond                         Camille                        Rue Crébillon                                                                                                            44000       Nantes
+Ferdinand                      François                       Rue de la convention                                                                                                     44100       Nantes
+
+(5 ligne(s) affectée(s))
+
+
+
+***************
+* Requete 2 : *
+***************
+n° fiche                                designation                                                                      départ                         retour
+--------------------------------------- -------------------------------------------------------------------------------- ------------------------------ ------------------------------
+1006                                    Décathlon Apparition                                                             08/11/2016                     09/11/2016
+1006                                    Décathlon Apparition                                                             08/11/2016                     09/11/2016
+1006                                    Décathlon Apparition                                                             08/11/2016                     09/11/2016
+
+(3 ligne(s) affectée(s))
+
+
+
+***************
+* Requete 3 : *
+***************
+refart designation                                                                      libelle
+------ -------------------------------------------------------------------------------- ------------------------------
+A01    Salomon 24X+Z12                                                                  Ski alpin
+A02    Salomon 24X+Z12                                                                  Ski alpin
+A03    Salomon 24X+Z12                                                                  Ski alpin
+A04    Salomon 24X+Z12                                                                  Ski alpin
+A05    Salomon 24X+Z12                                                                  Ski alpin
+A10    Salomon Pro Link Equipe 4S                                                       Ski alpin
+A11    Salomon Pro Link Equipe 4S                                                       Ski alpin
+A21    Salomon 3V RACE JR+L10                                                           Ski alpin
+F01    Fischer Cruiser                                                                  Ski de fond alternatif
+F02    Fischer Cruiser                                                                  Ski de fond alternatif
+F03    Fischer Cruiser                                                                  Ski de fond alternatif
+F04    Fischer Cruiser                                                                  Ski de fond alternatif
+F05    Fischer Cruiser                                                                  Ski de fond alternatif
+F10    Fischer Sporty Crown                                                             Ski de fond alternatif
+F20    Fischer RCS Classic GOLD                                                         Ski de fond alternatif
+F21    Fischer RCS Classic GOLD                                                         Ski de fond alternatif
+F22    Fischer RCS Classic GOLD                                                         Ski de fond alternatif
+F23    Fischer RCS Classic GOLD                                                         Ski de fond alternatif
+F50    Fischer SOSSkating VASA                                                          Ski de fond patineur
+F60    Fischer RCS CARBOLITE Skating                                                    Ski de fond patineur
+F61    Fischer RCS CARBOLITE Skating                                                    Ski de fond patineur
+F62    Fischer RCS CARBOLITE Skating                                                    Ski de fond patineur
+F63    Fischer RCS CARBOLITE Skating                                                    Ski de fond patineur
+F64    Fischer RCS CARBOLITE Skating                                                    Ski de fond patineur
+
+(24 ligne(s) affectée(s))
+
+
+
+
+***************
+* Requete 4 : *
+***************
+n° de fiche                             total fiche                             total
+--------------------------------------- --------------------------------------- ---------------------------------------
+1001                                    180.00                                  7050.00
+1003                                    120.00                                  7050.00
+9909                                    120.00                                  7050.00
+9911                                    650.00                                  7050.00
+9912                                    210.00                                  7050.00
+9914                                    860.00                                  7050.00
+9915                                    675.00                                  7050.00
+9916                                    950.00                                  7050.00
+9917                                    135.00                                  7050.00
+9919                                    220.00                                  7050.00
+9920                                    50.00                                   7050.00
+9922                                    840.00                                  7050.00
+9923                                    310.00                                  7050.00
+9927                                    20.00                                   7050.00
+9930                                    30.00                                   7050.00
+9931                                    225.00                                  7050.00
+9933                                    1170.00                                 7050.00
+9934                                    285.00                                  7050.00
+
+(18 ligne(s) affectée(s))
+
+
+
+***************
+* Requete 5 : *
+***************
+nombre d'articles en cours de location
+--------------------------------------
+7
+
+(1 ligne(s) affectée(s))
+
+
+
+***************
+* Requete 6 : *
+***************
+nom                            prenom                         nombre de location effectuées
+------------------------------ ------------------------------ -----------------------------
+Albert                         Anatole                        6
+Bernard                        Barnabé                        1
+Dupond                         Camille                        2
+Desmoulin                      Daniel                         3
+Ferdinand                      François                       1
+Dupond                         Jean                           3
+Boutaud                        Sabine                         3
+Dubosc                         Frank                          2
+Boon                           Dany                           5
+Elmaleh                        Gad                            3
+Dujardin                       Jean                           3
+Marceau                        Sophie                         5
+Merad                          Kad                            4
+Seigner                        Mathilde                       3
+Reno                           Jean                           3
+Lanvin                         Gérard                         2
+Tautou                         Audrey                         2
+Cotillard                      Marion                         3
+Duris                          Romain                         3
+Depardieu                      Gérard                         1
+Youn                           Michaël                        3
+Poelvoorde                     Benoît                         2
+Paradis                        Vanessa                        2
+Wilson                         Lambert                        2
+Garcia                         José                           2
+Luchini                        Fabrice                        1
+Baye                           Nathalie                       2
+Magimel                        Benoît                         2
+Cluzet                         François                       1
+Frot                           Catherine                      3
+Dupontel                       Albert                         3
+Huppert                        Isabelle                       3
+Deneuve                        Catherine                      3
+
+(33 ligne(s) affectée(s))
+
+
+
+
+***************
+* Requete 7 : *
+***************
+nom                            prenom                         total
+------------------------------ ------------------------------ ---------------------------------------
+Albert                         Anatole                        500.00
+Desmoulin                      Daniel                         200.00
+Boon                           Dany                           780.00
+Elmaleh                        Gad                            650.00
+Dujardin                       Jean                           210.00
+Marceau                        Sophie                         2120.00
+Merad                          Kad                            860.00
+Seigner                        Mathilde                       675.00
+Reno                           Jean                           950.00
+Cotillard                      Marion                         220.00
+Youn                           Michaël                        840.00
+Poelvoorde                     Benoît                         310.00
+Wilson                         Lambert                        240.00
+Baye                           Nathalie                       1245.00
+Frot                           Catherine                      225.00
+Dupontel                       Albert                         220.00
+Huppert                        Isabelle                       1170.00
+Deneuve                        Catherine                      285.00
+
+(18 ligne(s) affectée(s))
+
+
+
+***************
+* Requete 8 : *
+***************
+refart designation                                                                      nbloc
+------ -------------------------------------------------------------------------------- -----------
+A04    Salomon 24X+Z12                                                                  6
+P01    Décathlon Allegre junior 150                                                     6
+S01    Décathlon Apparition                                                             6
+F05    Fischer Cruiser                                                                  5
+F10    Fischer Sporty Crown                                                             4
+F22    Fischer RCS Classic GOLD                                                         4
+F23    Fischer RCS Classic GOLD                                                         4
+F50    Fischer SOSSkating VASA                                                          4
+A10    Salomon Pro Link Equipe 4S                                                       4
+A11    Salomon Pro Link Equipe 4S                                                       4
+F02    Fischer Cruiser                                                                  4
+P11    Fischer mini ski patinette                                                       4
+S02    Décathlon Apparition                                                             3
+F01    Fischer Cruiser                                                                  3
+A02    Salomon 24X+Z12                                                                  3
+F60    Fischer RCS CARBOLITE Skating                                                    3
+F21    Fischer RCS Classic GOLD                                                         2
+F63    Fischer RCS CARBOLITE Skating                                                    2
+F64    Fischer RCS CARBOLITE Skating                                                    2
+A03    Salomon 24X+Z12                                                                  2
+A05    Salomon 24X+Z12                                                                  2
+F03    Fischer Cruiser                                                                  2
+S03    Décathlon Apparition                                                             2
+A01    Salomon 24X+Z12                                                                  2
+P10    Fischer mini ski patinette                                                       2
+F04    Fischer Cruiser                                                                  1
+F61    Fischer RCS CARBOLITE Skating                                                    1
+
+(27 ligne(s) affectée(s))
+
+
+
+
+***************
+* Requete 9 : *
+***************
+nofic                                   nom                            prenom                         total
+--------------------------------------- ------------------------------ ------------------------------ ---------------------------------------
+1003                                    Albert                         Anatole                        120.00
+1004                                    Ferdinand                      François                       70.00
+1006                                    Dupond                         Jean                           60.00
+1008                                    Bernard                        Barnabé                        10.00
+9909                                    Dubosc                         Frank                          120.00
+9917                                    Lanvin                         Gérard                         135.00
+9918                                    Tautou                         Audrey                         50.00
+9920                                    Duris                          Romain                         50.00
+9921                                    Depardieu                      Gérard                         60.00
+9924                                    Paradis                        Vanessa                        140.00
+9927                                    Luchini                        Fabrice                        20.00
+9929                                    Magimel                        Benoît                         50.00
+9930                                    Cluzet                         François                       30.00
+
+(13 ligne(s) affectée(s))
+
+
+
+
+***************
+* Requete 10: *
+***************
+moyenne
+---------------------------------------
+26.363636
+
+(1 ligne(s) affectée(s))
+
+
+
+
+***************
+* Requete 11: *
+***************
+Duree Moyenne
+-------------
+4
+
+(1 ligne(s) affectée(s))
+

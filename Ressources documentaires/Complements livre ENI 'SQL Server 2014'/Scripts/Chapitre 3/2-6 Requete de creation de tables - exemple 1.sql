@@ -1,0 +1,8 @@
+
+SELECT numero, nom, prenom
+  INTO CLINANTES
+  FROM CLIENTS
+  WHERE ville='Nantes';
+GO
+SELECT *
+  FROM CLINANTES;

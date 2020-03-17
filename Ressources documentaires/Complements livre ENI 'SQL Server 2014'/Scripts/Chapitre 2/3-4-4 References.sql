@@ -1,0 +1,10 @@
+ALTER TABLE CATEGORIES
+  ADD CONSTRAINT pk_categories
+  PRIMARY KEY(code_cat);
+go
+
+ALTER TABLE ARTICLES
+  ADD CONSTRAINT fk_articles_categories
+  FOREIGN KEY (code_cat)
+  REFERENCES CATEGORIES (code_cat)
+  ON UPDATE CASCADE;

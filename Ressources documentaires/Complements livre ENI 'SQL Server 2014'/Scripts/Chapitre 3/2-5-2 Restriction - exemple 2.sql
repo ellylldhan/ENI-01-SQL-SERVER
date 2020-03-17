@@ -1,0 +1,3 @@
+SELECT numero, nom, prenom, ville
+  FROM CLIENTS
+  WHERE CODEPOSTAL BETWEEN 44000 AND 44999;
